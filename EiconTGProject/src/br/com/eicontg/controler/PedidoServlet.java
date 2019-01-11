@@ -35,7 +35,7 @@ public class PedidoServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		incluirPedido(request, response);
+		doPost(request, response);
 	}
 
 	/**
